@@ -10,9 +10,8 @@ This repository holds the automated quality assurance E2E engine for WorkFlow Pr
 
 1. Clone this repository to your environment directory:
 
-git clone [https://github.com/workflowpro/automation-framework.git](https://github.com/workflowpro/automation-framework.git)
-cd automation-framework
-
+git clone [https://github.com/Ajinkya68/Workflow_test)
+cd Workflow_test
 
 2.Establish an isolated virtual environment and activate it:
 
