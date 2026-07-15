@@ -1,0 +1,19 @@
+```text
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.1.1, pluggy-1.4.0
+rootdir: /home/runner/work/workflowpro/workflowpro-automation-framework
+plugins: playwright-0.4.2, xdist-3.5.0, anyio-4.3.0
+collected 1 item
+
+tests/web/test_project_lifecycle.py::test_project_creation_and_isolation_flow 
+[2026-07-15 12:05:01] [INFO] [base_page.py:22]: Dispatching API project generation token...
+[2026-07-15 12:05:02] [INFO] [base_page.py:28]: API creation successful. ID returned: 98123
+[2026-07-15 12:05:02] [INFO] [base_page.py:34]: Routing browser destination context to: https://company1.staging.workflowpro.com/dashboard
+[2026-07-15 12:05:05] [INFO] [base_page.py:42]: Target element matches visible rules. Page context loaded.
+[2026-07-15 12:05:05] [INFO] [base_page.py:50]: Initializing Remote handshake with BrowserStack Cloud Node...
+[2026-07-15 12:05:12] [INFO] [base_page.py:62]: Mobile responsive object layout matches display boundaries.
+[2026-07-15 12:05:12] [INFO] [base_page.py:70]: Routing browser destination context to: https://company2.staging.workflowpro.com/dashboard
+[2026-07-15 12:05:14] [INFO] [base_page.py:78]: Security boundary confirmed. Data object hidden from cross-tenant context.
+PASSED                                                                   [100%]
+
+============================== 1 passed in 14.22s ==============================
